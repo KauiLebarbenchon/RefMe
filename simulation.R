@@ -35,3 +35,18 @@ doc_space = function(n){
   }
   s
 }
+
+#plots doctors
+doc_plot = function(ds){
+  p = ggplot(ds,aes(x,y))
+  p+geom_point()
+}
+
+#finds optimal doctor for given patient
+best_doc = function(ds,pat){
+  ds$ins_fit = grepl(pat$insurance, ds$insurance)
+  nds = ds[-which(ds$ins_fit == FALSE),][-which(ds$cost > pat$max_cost),]
+  nds = nds[which(nds$cost == min(nds$cost)),]
+  nds
+}
+
