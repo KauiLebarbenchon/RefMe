@@ -37,3 +37,5 @@ subject to the constraints
 $$\sum_{h \in H}x_{ph} = 1$$
 
 for all $p \in M \cup N$.
+
+We solve the optimization problem with Monte Carlo methods. When scheduling patient $n_{0}$, we randomly generate patients $n_{i}$ for $i = 1, 2, ... N$. Given these patients, the problem simplifies to one of integer linear programming.
