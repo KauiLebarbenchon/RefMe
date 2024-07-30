@@ -54,4 +54,4 @@ $$p, h \in \mathbb{N}$$
 
 for all $p \in P, h \in H$. The third constraint specifies that patients $m \in M$ must occupy their respective fixed times $h_{m}$.
 
-We solve the optimization problem with Monte Carlo methods. When scheduling patient $n_{0}$, we ask the question: what position $h$ minimizes the (expected) objective function? We randomly generate patients $n_{i}$ for $i = 1, 2, ... N$. Given these patients, the problem simplifies to one of integer linear programming.
+We solve the optimization problem with Monte Carlo methods. When scheduling patient $n_{0}$, we ask the question: what position $h$ minimizes the (expected) objective function? We randomly generate patients $n_{i}$ for $i = 1, 2, ... N$. Given these patients, the problem simplifies to one of integer linear programming. Creating many samples of $N \sim \text{Poisson}(\lambda)$ patients with penalties $P$ (random variable), we compute the position $h$ that yields the minimum (expected) objective function.
