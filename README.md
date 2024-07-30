@@ -18,7 +18,7 @@ $$\sum_{n \in N}x_{nh} \leq 1$$
 
 for all $h \in H$ and 
 
-$$x_{nh} \in \\{ 0, 1 \\}$$
+$$x_{nh} \in \{ 0, 1 \}$$
 
 for all $n \in N, h \in H$ and 
 
@@ -42,11 +42,11 @@ $$\sum_{p \in P}x_{ph} \leq 1$$
 
 for all $h in H$ and 
 
-$$x_{mh} = 1$
+$$x_{mh} = 1$$
 
 for all all $h_{m}$ and 
 
-$$x_{ph} \in \\{ 0, 1 \\}$$
+$$x_{ph} \in \{ 0, 1 \}$$
 
 for all $p \in P, h \in H$ and 
 
