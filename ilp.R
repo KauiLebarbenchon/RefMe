@@ -1,10 +1,13 @@
 library(lpSolveAPI)
 
-#n0 := penalty for patient n0
+#h0 := penalty for patient n0
 #fix := vector of fixed positions for patients m
 #lambda := rate of patient referrals
-ilp <- function(n0, fix, lambda)
+ilp <- function(h0, fix, lambda)
 {
+  #fix patient n0 at time h0
+  fix <- append(fix, n0)
+  
   m = length(fix)
   n <- rpois(1, lambda)
   h = m + n
