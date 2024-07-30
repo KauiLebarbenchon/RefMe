@@ -65,6 +65,5 @@ ilp <- function(n0, fix, lambda)
   solve(lp)
   
   #return penalty
-  
   return(get.objective(lp))
 }
