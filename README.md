@@ -1,6 +1,7 @@
 RefMe - Patient Referral Scheduler
 
 Kaui Lebarbenchon, Daniel Yao
+
 30 July 2024
 
 Let $n \in \mathbb{N}$ enumerate the patients. Let $h$ enumerate the times a patient may be seen. Let $x_{nh}$ be the indicator that is $1$ if patient is seen at time $h$ and is $0$ otherwise. Let $p_{nh}$ be the penalty for not seeing patient $n$ on or before time $h$. (For all $h$ on and after patient n is seen, $p_{nh} = 0$. We minimize 
