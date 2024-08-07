@@ -36,11 +36,11 @@ subject to the constraints
 
 $$\sum_{h \in H}x_{ph} = 1$$
 
-for all $p \in P.\ and 
+for all $p \in P$. and 
 
 $$\sum_{p \in P}x_{ph} \leq 1$$
 
-for all $h in H$ and 
+for all $h \in H$ and 
 
 $$x_{mh} = 1$$
 
