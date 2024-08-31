@@ -1,6 +1,6 @@
 RefMe - Patient Referral Scheduler
 
-Kaui Lebarbenchon, Daniel Yao
+Shivam Aarya, Kaui Lebarbenchon, Daniel Yao
 
 30 July 2024
 
