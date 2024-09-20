@@ -1,8 +1,16 @@
-RefMe - Patient Referral Scheduler
+# RefMe
+Patient Referral Scheduler
 
-Shivam Aarya, Kaui Lebarbenchon, Daniel Yao
+![Scheduling Problem Logo](https://github.com/dyao13/RefMe/blob/main/readme/logo.png)
 
-30 July 2024
+# Installation
+To install `RefMe`:
+```
+git clone https://github.com/dyao13/RefMe
+cd RefMe
+```
+
+# Methodology
 
 The scheduling problem for $n$ patients and a time horizon of $h$ times may be formulated as follows. Let $h \in H$ enumerate the time positions. Let $n \in N$ enumerate the patients. Let $h$ enumerate the times a patient may be seen. Let $x_{nh}$ be the indicator that is $1$ if patient $n$ is seen at time $h$ and is $0$ otherwise. Let $p_{nh}$ be the penalty for not seeing patient $n$ on or before time $h$. (For all $h$ on and after patient n is seen, $p_{nh} = 0$.) We minimize 
 
